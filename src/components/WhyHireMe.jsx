@@ -1,4 +1,8 @@
 import React from "react";
+import communicatePic from "../image/communicativePic.png";
+import professionalPic from "../image/professionalPic.png";
+import callaborativePic from "../image/collaborativePic.png";
+import star from "../image/starPic.png";
 
 function WhyHireMe() {
   return (
@@ -7,10 +11,7 @@ function WhyHireMe() {
         <div className="text-[48px] text-center pt-10">Why Hire Me?</div>
         <div className="flex flex-rows justify-around">
           <div className="flex flex-col items-center justify-center p-10 pt-40">
-            <img
-              src="./src/image/communicativePic.png"
-              className="h-[51px] w-[51px]"
-            />
+            <img src={communicatePic} className="h-[51px] w-[51px]" />
             <div className="text-[24px] p-10">Communicative</div>
             <p className="text-[18px] text-gray-600">
               Proficiently conveys ideas through clear verbal and written
@@ -20,10 +21,7 @@ function WhyHireMe() {
           </div>
 
           <div className="flex flex-col items-center justify-center p-10 pt-40">
-            <img
-              src="./src/image/professionalPic.png"
-              className="h-[51px] w-[51px]"
-            />
+            <img src={professionalPic} className="h-[51px] w-[51px]" />
             <div className="text-[24px] p-10 ">Professional</div>
             <p className="text-[18px]  text-gray-600">
               Exhibits expertise in technical and industry-specific knowledge,
@@ -33,10 +31,7 @@ function WhyHireMe() {
           </div>
 
           <div className="flex flex-col items-center justify-center p-10 pt-40">
-            <img
-              src="./src/image/collaborativePic.png"
-              className="h-[51px] w-[51px]"
-            />
+            <img src={callaborativePic} className="h-[51px] w-[51px]" />
             <div className="text-[24px] p-10">Callaborative</div>
             <p className="text-[18px]  text-gray-600">
               Excels in teamwork, actively contributing insights and valuing
@@ -45,7 +40,7 @@ function WhyHireMe() {
           </div>
 
           <div className="flex flex-col items-center justify-center p-10 pt-40">
-            <img src="./src/image/starPic.png" className="h-[51px] w-[51px]" />
+            <img src={star} className="h-[51px] w-[51px]" />
             <div className="text-[24px] p-10">Client’s Favourite</div>
             <p className="text-[18px]  text-gray-600">
               Recognized for consistently exceeding client expectations by

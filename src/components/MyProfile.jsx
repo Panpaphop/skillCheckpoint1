@@ -1,4 +1,9 @@
 import React from "react";
+import facebookPic from "../image/facebook.png";
+import githubPic from "../image/github.png";
+import instagramPic from "../image/instagram.png";
+import redDots from "../image/redDots.svg";
+import me from "../image/me.jpg";
 
 function MyProfile() {
   return (
@@ -32,7 +37,7 @@ function MyProfile() {
                 rel="noopener noreferrer"
               >
                 <img
-                  src="./src/image/facebook.png"
+                  src={facebookPic}
                   alt="Facebook"
                   className="h-[51px] w-[51px] mr-10"
                 />
@@ -43,7 +48,7 @@ function MyProfile() {
                 rel="noopener noreferrer"
               >
                 <img
-                  src="./src/image/github.png"
+                  src={githubPic}
                   alt="GitHub"
                   className="h-[51px] w-[51px] mr-10"
                 />
@@ -54,7 +59,7 @@ function MyProfile() {
                 rel="noopener noreferrer"
               >
                 <img
-                  src="./src/image/instagram.png"
+                  src={instagramPic}
                   alt="Instagram"
                   className="h-[51px] w-[51px] mr-10"
                 />
@@ -75,18 +80,18 @@ function MyProfile() {
         <div class="right-side-box flex flex-col w-1/2 justify-center items-center  bg-[#FAF4F2] mt-[150px] mb-[200px]">
           <div className="w-[406px] h-[406px] relative">
             <img
-              src="./src/image/redDots.svg"
+              src={redDots}
               alt="Red Dots"
               className="absolute z-0 -top-0 -right-10 "
             />
             <img
-              src="./src/image/redDots.svg"
+              src={redDots}
               alt="Red Dots"
               className="absolute z-0 -bottom-0 -left--10 "
             />
           </div>
           <img
-            src="./src/image/me.jpg"
+            src={me}
             alt="My Profile"
             className="rounded-full w-[406px] absolute z-1"
           />
