@@ -4,13 +4,12 @@ import githubPic from "../image/github.png";
 import instagramPic from "../image/instagram.png";
 import redDots from "../image/redDots.svg";
 import me from "../image/me.jpg";
+import Navbar from "./NavBar";
 
 function MyProfile() {
   return (
     <>
-      <div className="bg-[#FF2950] text-white text-[40px] pl-[100px] h-[148px] flex items-center">
-        My profile
-      </div>
+      <Navbar />
       <section className="flex flex-cols bg-[#FAF4F2]">
         <div className="left-side-box flex flex-col w-1/2 justify-center items-center ml-20 mt-[150px] mb-[200px]">
           <div className="w-80% pl-14">
@@ -18,9 +17,7 @@ function MyProfile() {
             <p className="font-medium text-[40px]">
               I'm Panpaphop Pholprateepsuriya
             </p>
-            <p className="font-medium text-[40px]">
-              a Junior Software developer .
-            </p>
+            <p className="font-medium text-[40px]">a Full-stack developer.</p>
             <p className="text-[18px] font-normal mt-10 text-[#222222]">
               "As an engineering student with a profound passion for coding,
               coupled with my immersive experience in a software development
@@ -77,7 +74,7 @@ function MyProfile() {
             </div>
           </div>
         </div>
-        <div class="right-side-box flex flex-col w-1/2 justify-center items-center  bg-[#FAF4F2] mt-[150px] mb-[200px]">
+        <div className="right-side-box flex flex-col w-1/2 justify-center items-center  bg-[#FAF4F2] mt-[150px] mb-[200px]">
           <div className="w-[406px] h-[406px] relative">
             <img
               src={redDots}

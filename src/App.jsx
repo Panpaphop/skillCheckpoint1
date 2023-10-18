@@ -1,23 +1,17 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
-import MyProfile from "./components/MyProfile";
-import WhyHireMe from "./components/WhyHireMe";
-import Portfolio from "./components/Portfolio";
-import Footer from "./components/Footer";
+import React from "react";
+import LandingPage from "./pages/LandingPage";
+import AboutMePage from "./pages/AboutMePage";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <>
-      {/* <FirstPage /> */}
-      <MyProfile />
-      <WhyHireMe/>
-      <Portfolio />
-      <Footer/>
-    </>
+    <Router>
+      <Routes>
+        <Route path="*" element={<LandingPage />} />
+        <Route path="/about-me" element={<AboutMePage />} />
+      </Routes>
+    </Router>
   );
 }
 
