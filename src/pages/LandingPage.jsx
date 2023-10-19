@@ -5,12 +5,10 @@ import Footer from "../components/Footer";
 
 function LandingPage() {
   return (
-    <>
+    <div className="bg-[#FAF4F2] h-screen">
       <MyProfile />
-      <WhyHireMe />
-      <Portfolio />
       <Footer />
-    </>
+    </div>
   );
 }
 

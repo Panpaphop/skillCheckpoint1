@@ -2,11 +2,14 @@ import React from "react";
 import facebookPic from "../image/facebook.png";
 import githubPic from "../image/github.png";
 import instagramPic from "../image/instagram.png";
+import linkedinPic from "../image/linkedin.png";
 import redDots from "../image/redDots.svg";
 import me from "../image/me.jpg";
 import Navbar from "./NavBar";
+import { useNavigate } from "react-router-dom";
 
 function MyProfile() {
+  const navigate = useNavigate();
   return (
     <>
       <Navbar />
@@ -26,16 +29,16 @@ function MyProfile() {
             </p>
             <div className="followMeBox mt-9 flex flex-rows">
               <span className="text-[#222222] text-[18px] mr-10 mt-3">
-                Follow me
+                Contact Me
               </span>
               <a
-                href="https://www.facebook.com/panpaphop.ryu"
+                href="https://linkedin.com/in/panpaphop"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img
-                  src={facebookPic}
-                  alt="Facebook"
+                  src={linkedinPic}
+                  alt="Linkedin"
                   className="h-[51px] w-[51px] mr-10"
                 />
               </a>
@@ -50,26 +53,18 @@ function MyProfile() {
                   className="h-[51px] w-[51px] mr-10"
                 />
               </a>
-              <a
-                href="https://www.instagram.com/ryu.ppp/?hl=en"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src={instagramPic}
-                  alt="Instagram"
-                  className="h-[51px] w-[51px] mr-10"
-                />
-              </a>
             </div>
           </div>
           <div className="flex justify-start w-full pl-14">
             <div className="flex items-center mt-10 ">
-              <button className="bg-[#FF2950] text-white py-3 px-3 rounded ">
-                Send Request
+              <button
+                className="bg-[#FF2950] text-white py-3 px-3 rounded hover:bg-red-800"
+                onClick={() => navigate("/about-me")}
+              >
+                About me?
               </button>
-              <button className="ml-10 py-3 px-3 rounded  text-[#0B0757] border border-solid border-[#FF2950]">
-                Download CV
+              <button className="ml-10 py-3 px-3 rounded  text-[#0B0757] border border-solid border-[#FF2950] hover:bg-red-800 hover:text-white">
+                Download Resume
               </button>
             </div>
           </div>
