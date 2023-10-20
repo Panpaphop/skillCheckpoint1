@@ -53,7 +53,6 @@ function AboutMePage() {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 }
