@@ -7,8 +7,8 @@ import star from "../image/starPic.png";
 function WhyHireMe() {
   return (
     <>
-      <div className="bg-[#FAF4F2]">
-        <div className="text-[48px] text-center pt-10">Why Hire Me?</div>
+      <div className="bg-[#FAF4F2] pb-[200px]">
+        <div className="text-[48px] text-center pt-10  ">Why Hire Me?</div>
         <div className="flex flex-rows justify-around">
           <div className="flex flex-col items-center justify-center p-10 pt-40">
             <img src={communicatePic} className="h-[51px] w-[51px]" />
