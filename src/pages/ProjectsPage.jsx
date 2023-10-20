@@ -13,7 +13,6 @@ function ProjectsPage() {
         My Projects
       </p>
       <MerryMatch />
-      <Footer />
     </div>
   );
 }
