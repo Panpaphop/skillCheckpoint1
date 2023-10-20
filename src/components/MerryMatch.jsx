@@ -4,7 +4,7 @@ import merryMatchPic from "../image/merryMatch.png";
 function MerryMatch() {
   return (
     <div className="flex items-start justify-around  p-10">
-      <div className="border border-solid border-[#FF2950] border-2 rounded-xl p-1 h-[100%] w-[60%]">
+      <div className="border border-solid border-[#FF2950] border-2 rounded-xl p-1 w-[60%]">
         <a
           href="https://merry-match-client.onrender.com/"
           target="_blank"
