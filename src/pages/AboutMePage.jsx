@@ -13,7 +13,7 @@ function AboutMePage() {
         <p className="text-[40px] text-center pt-10 mb-[60px] font-medium">
           About Me
         </p>
-        <div className="flex flex-rows w-full justify-center">
+        <div className="flex flex-rows w-full justify-center bg-[#FAF4F2]">
           <div className="w-1/2 bg-[#FAF4F2]">
             <div className="bg-[#FAF4F2] flex justify-center items-start">
               <div className="m-[100px] mt-[40px]">
