@@ -13,7 +13,7 @@ function MyProfile() {
   return (
     <>
       <Navbar />
-      <section className="flex flex-cols bg-[#FAF4F2]">
+      <section className="flex flex-cols bg-[#FAF4F2] h-[1000px] ">
         <div className="left-side-box flex flex-col w-1/2 justify-center items-center ml-20 mt-[150px] mb-[200px]">
           <div className="w-80% pl-14">
             <p className="text-[24px]">Hi!</p>

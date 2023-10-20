@@ -5,7 +5,7 @@ import Footer from "../components/Footer";
 
 function LandingPage() {
   return (
-    <div className="bg-[#FAF4F2] h-screen">
+    <div className="bg-[#FAF4F2] h-screen relative">
       <MyProfile />
       <Footer />
     </div>
