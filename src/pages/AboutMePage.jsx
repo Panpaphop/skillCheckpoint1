@@ -14,8 +14,8 @@ function AboutMePage() {
           About Me
         </p>
         <div className="flex flex-rows w-full justify-center">
-          <div className="w-1/2">
-            <div className="bg-[#FAF4F2]">
+          <div className="w-1/2 bg-[#FAF4F2]">
+            <div className="bg-[#FAF4F2] flex justify-center items-start">
               <div className="m-[100px] mt-[40px]">
                 <p className="text-[30px] font-medium">Experiences</p>
                 <br />
@@ -40,7 +40,7 @@ function AboutMePage() {
                 </p>
                 <br />
                 <button
-                  className="bg-[#FF2950] text-white py-3 px-3 rounded hover:bg-red-800 mt-5 text-[20px]"
+                  className="bg-[#FF2950] text-white py-3 px-3 rounded hover:bg-red-800 mt-5 text-[20px] mb-10"
                   onClick={() => navigate("/projects")}
                 >
                   Wanna see my projects?
@@ -48,7 +48,7 @@ function AboutMePage() {
               </div>
             </div>
           </div>
-          <div className="w-1/2 flex justify-center ">
+          <div className="w-1/2 flex justify-center bg-[#FAF4F2] ">
             <TechStacks />
           </div>
         </div>
