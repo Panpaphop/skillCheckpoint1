@@ -65,6 +65,7 @@ function MyProfile() {
               </button>
               <a
                 href="https://drive.google.com/file/d/11GuOIijNR352aQwC0RFUPIV_rGKx5qzK/view?usp=share_link"
+                target="_blank"
                 download="my-resume.pdf"
                 className="ml-10 py-3 px-3 rounded text-[#0B0757] border border-solid border-[#FF2950] hover:bg-red-800 hover:text-white"
               >
